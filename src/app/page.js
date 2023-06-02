@@ -7,7 +7,7 @@ import Hero from "./components/Hero";
 import Nesus from "./components/Nesus";
 import Services from "./components/Services";
 import Transport from "./components/Transport";
-import Navbar from "./components/navbar";
+import Navbar from "./components/Navbar";
 
 export default function Home() {
   return (
