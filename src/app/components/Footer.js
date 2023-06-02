@@ -3,8 +3,8 @@ import React from "react";
 export default function Footer() {
   return (
     <>
-      <footer className="page_footer ds section_padding_top_65 section_padding_bottom_50 columns_margin_bottom_40">
-        <div className="container">
+      <footer id="footer" className="page_footer ds section_padding_top_65 section_padding_bottom_50 columns_margin_bottom_40">
+        <div  className="container">
           <div className="row">
             <div className="col-md-3 col-sm-6" data-animation="fadeInUp">
               <a href="./" className="logo">
@@ -82,7 +82,7 @@ export default function Footer() {
                     Neuss: Moselstraße 5a 41464 Neuss Tel .: 02131/201380 Fax:
                     02131/3142659
                   </div>
-                
+
                 </div>
                 <div className="media small-teaser">
                   <div className="media-left">

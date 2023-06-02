@@ -39,7 +39,7 @@ export default function Navbar() {
                     </a>
                   </li>{" "}
                   <li className="">
-                    <a data-scroll="" href="#testimonials">
+                    <a data-scroll="" href="#footer">
                       Partner
                     </a>
                   </li>{" "}
