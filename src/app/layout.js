@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <title>Towy</title>
+        <title>PBA</title>
         <meta charSet="utf-8" />
 
         <meta name="description" content="" />
@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
           href="https://unpkg.com/aos@2.3.1/dist/aos.css"
           rel="stylesheet"
         ></link>
-       
+
       </head>
 
       <body className={inter.className}>{children}</body>
