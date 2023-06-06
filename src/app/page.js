@@ -11,6 +11,7 @@ import Navbar from "./components/Navbar";
 import Loader from "./components/Loader";
 
 export default function Home() {
+
   return (
     <>
       <div id="canvas">

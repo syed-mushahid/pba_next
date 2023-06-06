@@ -7,7 +7,7 @@ export default function Nesus() {
       className="ls section_padding_top_100 section_padding_bottom_100 columns_margin_bottom_20 px-2"
     >
       <div className="container">
-        <div className="row my">
+        <div className="row my">  
           <div className="col-lg-6 col-md-6">
             <h2 className="section_header numbered-header">
               PBA Abschleppdienst in
