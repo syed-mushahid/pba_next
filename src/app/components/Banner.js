@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 export default function Banner() {
   return (
@@ -30,14 +30,16 @@ export default function Banner() {
               </div>
             </div>
             <div className="col-lg-4 text-center">
-              <div className="with_padding_small">
-                <div className="teaser">
-                  <h3 className="text-uppercase highlight big margin_0">
-                    0 (2131)
-                    <strong>20 13 80</strong>
-                  </h3>
+              <a href="tel:02131201380">
+                <div className="with_padding_small">
+                  <div className="teaser">
+                    <h3 className="text-uppercase highlight big margin_0">
+                      0 (2131)
+                      <strong>20 13 80</strong>
+                    </h3>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
             <div className="col-lg-4 text-center" data-animation="fadeInRight">
               <div className="with_icon_bg with_padding_small with_skew_bg skew_left main_bg_color cs">

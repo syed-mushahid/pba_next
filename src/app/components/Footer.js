@@ -3,8 +3,11 @@ import React from "react";
 export default function Footer() {
   return (
     <>
-      <footer id="footer" className="page_footer ds section_padding_top_65 section_padding_bottom_50 columns_margin_bottom_40">
-        <div  className="container">
+      <footer
+        id="footer"
+        className="page_footer ds section_padding_top_65 section_padding_bottom_50 columns_margin_bottom_40"
+      >
+        <div className="container">
           <div className="row">
             <div className="col-md-3 col-sm-6" data-animation="fadeInUp">
               <a href="./" className="logo">
@@ -43,7 +46,7 @@ export default function Footer() {
                 <div className="widget widget_pages">
                   <h3 className="widget-title">
                     Useful
-                    <strong>Links</strong>
+                    <strong> Links</strong>
                   </h3>
                   <hr className="divider_30_3 zebra_bg divider_left" />
                   <div className="row columns_padding_0 columns_margin_0">
@@ -71,22 +74,41 @@ export default function Footer() {
               <div className="widget widget_text topmargin_15">
                 <h3 className="widget-title">
                   Get in
-                  <strong>Touch</strong>
+                  <strong> Touch</strong>
                 </h3>
                 <hr className="divider_30_3 zebra_bg divider_left" />
                 <div className="media small-teaser">
-                  <div className="media-left">
-                    <i className="fa fa-map-marker highlight fontsize_18" />
-                  </div>
-                  <div className="media-body">
-                    Neuss: Moselstraße 5a 41464 Neuss Tel .: 02131/201380 Fax:
-                    02131/3142659
-                  </div>
-
+                  <a
+                    href="https://goo.gl/maps/wRpBKRRqh4tPgEKH8"
+                    target="_blank"
+                  >
+                    <div className="media-left">
+                      <i className="fa fa-map-marker highlight fontsize_18" />
+                    </div>
+                    <div className="media-body">
+                      Neuss: Moselstraße 5a 41464 Neuss
+                    </div>
+                  </a>
                 </div>
                 <div className="media small-teaser">
+                  <a href="tel:02131201380">
+                    <div className="media-left">
+                      <i className="fa fa-phone highlight fontsize_18" />
+                    </div>
+                    <div className="media-body col12">02131/201380</div>
+                  </a>
+                </div>
+                <div className="media small-teaser">
+                  <a href="fax:02131201380">
+                    <div className="media-left">
+                      <i className="fa fa-fax highlight fontsize_18" />
+                    </div>
+                    <div className="media-body col12">02131/201380</div>
+                  </a>
+                </div>
+                {/* <div className="media small-teaser">
                   <div className="media-left">
-                    <i className="fa fa-envelope highlight fontsize_18" />
+                    <i className="fa fa-map-marker highlight fontsize_18" />
                   </div>
                   <div className="media-body greylinks">
                     <div className="media-body col-12">
@@ -94,14 +116,35 @@ export default function Footer() {
                       02133/295020 Fax: 02133/295010
                     </div>
                   </div>
+                </div> */}
+                <div className="media small-teaser">
+                  <a
+                    href="https://goo.gl/maps/wRpBKRRqh4tPgEKH8"
+                    target="_blank"
+                  >
+                    <div className="media-left">
+                      <i className="fa fa-map-marker highlight fontsize_18" />
+                    </div>
+                    <div className="media-body">
+                      Neusser Straße 1a 41542 Dormagen
+                    </div>
+                  </a>
                 </div>
                 <div className="media small-teaser">
-                  <div className="media-left">
-                    <i className="fa fa-phone highlight fontsize_18" />
-                  </div>
-                  <div className="media-body col12">
-                    PBA towing service GmbH
-                  </div>
+                  <a href="tel:02133295020">
+                    <div className="media-left">
+                      <i className="fa fa-phone highlight fontsize_18" />
+                    </div>
+                    <div className="media-body col12">02133/295020</div>
+                  </a>
+                </div>
+                <div className="media small-teaser">
+                  <a href="fax:02133295010">
+                    <div className="media-left">
+                      <i className="fa fa-fax highlight fontsize_18" />
+                    </div>
+                    <div className="media-body col12">02133/295010</div>
+                  </a>
                 </div>
                 <div className="media small-teaser">
                   <div className="media-left">

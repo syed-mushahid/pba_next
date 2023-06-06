@@ -8,12 +8,14 @@ import Nesus from "./components/Nesus";
 import Services from "./components/Services";
 import Transport from "./components/Transport";
 import Navbar from "./components/Navbar";
+import Loader from "./components/Loader";
 
 export default function Home() {
   return (
     <>
       <div id="canvas">
         <div id="box_wrapper">
+          {/* <Loader /> */}
           <Navbar />
           <Hero />
           <Banner />

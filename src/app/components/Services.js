@@ -1,16 +1,61 @@
 import React from "react";
 
 export default function Services() {
+  // Define an array of service data
+  const servicesData = [
+    {
+      id: 1,
+      icon: "images/icons/towing.png",
+      title: "Car Towing",
+      description:
+        "Duis laboris ball tip jowl sed. Drumstick leberkas tenderloin swine laborum cupim bacon ipsum jowl meatball t-bone."
+    },
+    {
+      id: 2,
+      icon: "images/icons/hail.png",
+      title: "Hail Damage",
+      description:
+        "Strip steak turkey prosciutto exercitation cillum elit. Enim ham velit aute jerky ras. Anim landjaeger andouille."
+    },
+    {
+      id: 3,
+      icon: "images/icons/flood.png",
+      title: "Flood Insurance Coverage",
+      description:
+        "Shankle pastrami jerky spare ribs pancetta hamburger aute occaecat andouille corned beef quis capicola fugiat ea flank."
+    },
+    {
+      id: 4,
+      icon: "images/icons/accident.png",
+      title: "Accident Insurance",
+      description:
+        "T-bone laborum esse tongue, consequat elit short ribs cow cupidatat sed fugiat fatback. Velit dolor frankfurter pork loin."
+    },
+    {
+      id: 5,
+      icon: "images/icons/fire.png",
+      title: "Fire Insurance",
+      description:
+        "Turkey turducken nulla pork chop shankle biltong ipsum mollit brisket non boudin. Frankfurter porchetta cow aliquip."
+    },
+    {
+      id: 6,
+      icon: "images/icons/motocycle.png",
+      title: "Motorcycle Towing",
+      description:
+        "Bresaola pork consequat exercitation, voluptate pork loin brisket capicola officia incididunt ground round cupim."
+    }
+  ];
   return (
     <section
       id="services"
       className="ls section_padding_top_100 section_padding_bottom_100 columns_margin_0"
     >
       <div className="container">
-        <div className="row ">
+        <div className="row">
           <div className="col-sm-12 text-center">
             <h2 className="section_header numbered-header">
-              <strong> Uunsere </strong> Dienstleistungen
+              <strong> Unsere </strong> Dienstleistungen
             </h2>
             <p className="small-text">
               Wir können Ihnen durch unsere Werkstatt und Fahrzeugaufbereitung
@@ -21,81 +66,23 @@ export default function Services() {
           </div>
         </div>
         <div className="row topmargin_30 stretch-items">
-          <div className="col-md-4 my">
-            <div className="with_padding service-container">
-              <div className="teaser text-center">
-                <img src="images/icons/towing.png" alt="" />
-                <h4 style={{color:"#fff"}} className="service-heading">Car Towing</h4>
-                <p>
-                  Duis laboris ball tip jowl sed. Drumstick leberkas tenderloin
-                  swine laborum cupim bacon ipsum jowl meatball t-bone.
-                </p>
+          {/* Map over the servicesData array */}
+          {servicesData.map((service, index) => (
+            <div className="col-md-4 my" key={index}>
+              <div className="with_padding service-container">
+                <div className="teaser text-center">
+                  <img src={service.icon} alt="" />
+                  <h4 style={{ color: "#fff" }} className="service-heading">
+                    {service.heading}
+                  </h4>
+                  <p>{service.description}</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div className="col-md-4 my">
-            <div className="with_padding service-container">
-              <div className="teaser text-center">
-                <img src="images/icons/hail.png" alt="" />
-                <h4 style={{color:"#fff"}} className="service-heading" >Hail Damage</h4>
-                <p>
-                  Strip steak turkey prosciutto exercitation cillum elit. Enim
-                  ham velit aute jerky ras. Anim landjaeger andouille.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-4 my">
-            <div className="with_padding service-container">
-              <div className="teaser text-center">
-                <img src="images/icons/flood.png" alt="" />
-                <h4 style={{color:"#fff"}} className="service-heading">Flood Insurance Coverage</h4>
-                <p>
-                  Shankle pastrami jerky spare ribs pancetta hamburger aute
-                  occaecat andouille corned beef quis capicola fugiat ea flank.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-4 my">
-            <div className="with_padding service-container">
-              <div className="teaser text-center ">
-                <img src="images/icons/accident.png" alt="" />
-                <h4 style={{color:"#fff"}} className="service-heading">Accident Insurance</h4>
-                <p>
-                  T-bone laborum esse tongue, consequat elit short ribs cow
-                  cupidatat sed fugiat fatback. Velit dolor frankfurter pork
-                  loin.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-4 my">
-            <div className="with_padding service-container">
-              <div className="teaser text-center">
-                <img src="images/icons/fire.png" alt="" />
-                <h4 style={{color:"#fff"}} className="service-heading">Fire Insurance</h4>
-                <p>
-                  Turkey turducken nulla pork chop shankle biltong ipsum mollit
-                  brisket non boudin. Frankfurter porchetta cow aliquip.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="col-md-4 my">
-            <div className="with_padding service-container">
-              <div className="teaser text-center">
-                <img src="images/icons/motocycle.png" alt="" />
-                <h4 style={{color:"#fff"}} className="service-heading">Motorcycle Towing</h4>
-                <p>
-                  Bresaola pork consequat exercitation, voluptate pork loin
-                  brisket capicola officia incididunt ground round cupim.
-                </p>
-              </div>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
+
       <div className="container">
         <div className="row ">
           <p>
@@ -315,7 +302,11 @@ export default function Services() {
             </div>
           </div>
         </div>
+      
+
       </div>
+
     </section>
   );
 }
+

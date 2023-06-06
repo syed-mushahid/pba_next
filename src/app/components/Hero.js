@@ -3,7 +3,7 @@ import React from "react";
 export default function Hero() {
   return (
     <>
-      <section class="hero" id="home">
+      <section class="hero" id="hero">
         <div class="overlay">
           <div class="content">
             <h1 class="text-white" style={{ fontSize: "46px !important" }}>

@@ -1,7 +1,7 @@
 @font-face {
-    font-family: rt-icons-2;
     src: url(../fonts/rt-icons-2.eot?wz19bt);
     src: url(../fonts/rt-icons-2.eot?#iefixwz19bt) format('embedded-opentype'), url(../fonts/rt-icons-2.ttf?wz19bt) format('truetype'), url(../fonts/rt-icons-2.woff?wz19bt) format('woff'), url(../fonts/rt-icons-2.svg?wz19bt#rt-icons-2) format('svg');
+    font-family: rt-icons-2;
     font-weight: 400;
     font-style: normal
 }

@@ -3,7 +3,7 @@ import React from "react";
 export default function ContactForm() {
   return (
     <section
-      id="quote"
+      id="contact"
       className="parallax get_quote section_padding_0 columns_margin_0"
     >
       <div className="container-fluid">
@@ -159,17 +159,17 @@ export default function ContactForm() {
                             <span className="required">*</span>
                           </label>
                           <input
-                            type="text"
+                            type="date"
                             name="tow-date"
                             id="tow-date"
                             defaultValue=""
                             className="form-control"
                             placeholder="Date"
                           />
-                          <i
+                          {/* <i
                             className="fa fa-calendar grey"
                             aria-hidden="true"
-                          />
+                          /> */}
                         </div>
                       </div>
                     </div>

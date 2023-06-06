@@ -24,29 +24,32 @@ export default function Navbar() {
                   </li>
                   <li className="">
                     <a data-scroll="" href="#about">
-                      Abschleppdienst{/*  <span class="hidden-xs">*</span> */}
+                      Abschleppen{/*  <span class="hidden-xs">*</span> */}
                     </a>
+                  </li>{" "}
+                  <li className="">
+                    <a data-scroll="" href="#services">
+                      Dienstleistungen
+                    </a>
+                  </li>{" "}
+                  <li
+                    class="sf-logo-li"
+                    style={{ width: "209px", marginLeft: "50px" }}
+                  ></li>
+                  <li className="">
+                    <a data-scroll="" href="#nesus">
+                      About
+                    </a>{" "}
                   </li>{" "}
                   <li className="">
                     <a data-scroll="" href="#transport">
                       Transporte
                     </a>
                   </li>{" "}
-                  <li class="sf-logo-li" style={{ width: "209px" }}></li>
                   <li className="">
-                    <a data-scroll="" href="#services">
-                      Dienstleistungen
+                    <a data-scroll="" href="#contact">
+                      Contact
                     </a>
-                  </li>{" "}
-                  <li className="">
-                    <a data-scroll="" href="#footer">
-                      Partner
-                    </a>
-                  </li>{" "}
-                  <li className="">
-                    <a data-scroll="" href="#nesus">
-                      Impressum
-                    </a>{" "}
                   </li>{" "}
                 </ul>
               </nav>
