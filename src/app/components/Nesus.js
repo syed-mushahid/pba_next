@@ -4,7 +4,7 @@ export default function Nesus() {
   return (
     <section
       id="nesus"
-      className="ls section_padding_top_100 section_padding_bottom_100 columns_margin_bottom_20"
+      className="ls section_padding_top_100 section_padding_bottom_100 columns_margin_bottom_20 px-2"
     >
       <div className="container">
         <div className="row my">
