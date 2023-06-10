@@ -320,3 +320,6 @@
 #switcher {
   display: none !important;
 }
+.modal {
+  z-index: 999999 !important;
+}

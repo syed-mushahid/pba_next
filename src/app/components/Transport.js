@@ -33,10 +33,15 @@ export default function Transport() {
         <div className="container gal-container">
           <div className="col-md-8 col-sm-12 co-xs-12 gal-item">
             <div className="box">
-              <a href="#" data-toggle="modal" data-target="#1">
+              <a href="#" data-toggle="modal" data-target="#transport1">
                 <img src="images/transportPhoto/transportPhoto1.jpg" alt="#" />
               </a>
-              <div className="modal fade" id={1} tabIndex={-1} role="dialog">
+              <div
+                className="modal fade"
+                id={"transport1"}
+                tabIndex={-1}
+                role="dialog"
+              >
                 <div className="modal-dialog" role="document">
                   <div className="modal-content">
                     <button
@@ -63,10 +68,15 @@ export default function Transport() {
           </div>
           <div className="col-md-4 col-sm-6 co-xs-12 gal-item">
             <div className="box">
-              <a href="#" data-toggle="modal" data-target="#2">
+              <a href="#" data-toggle="modal" data-target="#transport2">
                 <img src="images/transportPhoto/transportPhoto2.jpg" alt="#" />
               </a>
-              <div className="modal fade" id={2} tabIndex={-1} role="dialog">
+              <div
+                className="modal fade"
+                id={"transport2"}
+                tabIndex={-1}
+                role="dialog"
+              >
                 <div className="modal-dialog" role="document">
                   <div className="modal-content">
                     <button
@@ -93,10 +103,15 @@ export default function Transport() {
           </div>
           <div className="col-md-4 col-sm-6 co-xs-12 gal-item">
             <div className="box">
-              <a href="#" data-toggle="modal" data-target="#3">
+              <a href="#" data-toggle="modal" data-target="#transport3">
                 <img src="images/transportPhoto/transportPhoto3.jpg" alt="#" />
               </a>
-              <div className="modal fade" id={3} tabIndex={-1} role="dialog">
+              <div
+                className="modal fade"
+                id={"transport3"}
+                tabIndex={-1}
+                role="dialog"
+              >
                 <div className="modal-dialog" role="document">
                   <div className="modal-content">
                     <button
@@ -123,10 +138,15 @@ export default function Transport() {
           </div>
           <div className="col-md-4 col-sm-6 co-xs-12 gal-item">
             <div className="box">
-              <a href="#" data-toggle="modal" data-target="#4">
+              <a href="#" data-toggle="modal" data-target="#transport4">
                 <img src="images/transportPhoto/transportPhoto4.jpg" alt="#" />
               </a>
-              <div className="modal fade" id={4} tabIndex={-1} role="dialog">
+              <div
+                className="modal fade"
+                id={"transport4"}
+                tabIndex={-1}
+                role="dialog"
+              >
                 <div className="modal-dialog" role="document">
                   <div className="modal-content">
                     <button
@@ -139,7 +159,7 @@ export default function Transport() {
                     </button>
                     <div className="modal-body">
                       <img
-                        src="images/transportPhoto/transportPhoto4.jpg.png"
+                        src="images/transportPhoto/transportPhoto4.jpg"
                         alt="#"
                       />
                     </div>
@@ -153,10 +173,15 @@ export default function Transport() {
           </div>
           <div className="col-md-4 col-sm-6 co-xs-12 gal-item">
             <div className="box">
-              <a href="#" data-toggle="modal" data-target="#5">
+              <a href="#" data-toggle="modal" data-target="#transport5">
                 <img src="images/transportPhoto/transportPhoto5.jpg" alt="#" />
               </a>
-              <div className="modal fade" id={5} tabIndex={-1} role="dialog">
+              <div
+                className="modal fade"
+                id={"transport5"}
+                tabIndex={-1}
+                role="dialog"
+              >
                 <div className="modal-dialog" role="document">
                   <div className="modal-content">
                     <button
@@ -183,10 +208,15 @@ export default function Transport() {
           </div>
           <div className="col-md-4 col-sm-6 co-xs-12 gal-item">
             <div className="box">
-              <a href="#" data-toggle="modal" data-target="#9">
+              <a href="#" data-toggle="modal" data-target="#transport9">
                 <img src="images/transportPhoto/transportPhoto6.jpg" alt="#" />
               </a>
-              <div className="modal fade" id={9} tabIndex={-1} role="dialog">
+              <div
+                className="modal fade"
+                id={"transport9"}
+                tabIndex={-1}
+                role="dialog"
+              >
                 <div className="modal-dialog" role="document">
                   <div className="modal-content">
                     <button
@@ -213,10 +243,15 @@ export default function Transport() {
           </div>
           <div className="col-md-8 col-sm-12 co-xs-12 gal-item">
             <div className="box">
-              <a href="#" data-toggle="modal" data-target="#10">
+              <a href="#" data-toggle="modal" data-target="#transport10">
                 <img src="images/transportPhoto/transportPhoto7.jpg" alt="#" />
               </a>
-              <div className="modal fade" id={10} tabIndex={-1} role="dialog">
+              <div
+                className="modal fade"
+                id={"transport10"}
+                tabIndex={-1}
+                role="dialog"
+              >
                 <div className="modal-dialog" role="document">
                   <div className="modal-content">
                     <button
